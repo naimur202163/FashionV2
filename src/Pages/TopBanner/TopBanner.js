@@ -32,23 +32,23 @@ const TopBanner = () => {
         {/* Part-2 */}
         <Row>
           <Col sm={12} md={4} lg={4}>
-            <div style={{ width: "547", height: "308px" }}>
-              <img width="100%" src={img4} alt="" />
+            <div style={{ width: "550px", height: "308px" }}>
+              <img width="100%" height="100%" src={img4} alt="" />
             </div>
           </Col>
           <Col sm={12} md={4} lg={4}>
             <div style={{ width: "463px", height: "308px" }}>
-              <img width="100%" src={img5} alt="" />
+              <img width="100%" height="100%" src={img5} alt="" />
             </div>
           </Col>
           <Col sm={12} md={2} lg={2}>
             <div style={{ width: "324px", height: "308px" }}>
-              <img width="100%" src={img6} alt="" />
+              <img width="100%" height="100%" src={img6} alt="" />
             </div>
           </Col>
           <Col sm={12} md={2} lg={2}>
-            <div style={{ width: "230px", height: "350px" }}>
-              <img width="100%" src={img7} alt="" />
+            <div style={{ width: "250px", height: "308px" }}>
+              <img width="100%" height="100%" src={img7} alt="" />
             </div>
           </Col>
         </Row>
