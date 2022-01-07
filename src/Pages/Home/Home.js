@@ -1,5 +1,7 @@
 import React from "react";
 import BannerImg from "../BannerImg/BannerImg";
+import Flag from "../Flag/Flag";
+import Footer from "../Footer/Footer";
 import Lorem from "../Lorem/Lorem";
 import OurStyle from "../OurStyle/OurStyle";
 import Testimonials from "../Testimonials/Testimonials";
@@ -12,9 +14,11 @@ const Home = () => {
       <TopBanner />
       <BannerImg />
       <Conslatency />
+      <Flag />
       <OurStyle />
       <Testimonials />
       <Lorem />
+      <Footer />
     </div>
   );
 };
