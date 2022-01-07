@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./Lorem.css";
 const Lorem = () => {
   return (
-    <div className="my-5">
+    <div style={{ marginTop: "10rem" }} className="my-5">
       <Container>
         <Row>
           <Col>
