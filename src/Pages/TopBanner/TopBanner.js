@@ -10,7 +10,7 @@ import img7 from "../../img/Rectangle 171.png";
 
 const TopBanner = () => {
   return (
-    <div>
+    <div className="my-5">
       <Container>
         <Row>
           <Col sm={12} md={5} lg={5}>
@@ -24,7 +24,7 @@ const TopBanner = () => {
             </div>
           </Col>
           <Col sm={12} md={5} lg={5}>
-            <div style={{ width: "560px", height: "278px" }}>
+            <div style={{ width: "538px", height: "278px" }}>
               <img width="100%" height="100%" src={img3} alt="" />
             </div>
           </Col>
@@ -47,7 +47,7 @@ const TopBanner = () => {
             </div>
           </Col>
           <Col sm={12} md={2} lg={2}>
-            <div style={{ width: "232px", height: "308px" }}>
+            <div style={{ width: "208px", height: "308px" }}>
               <img width="100%" height="100%" src={img7} alt="" />
             </div>
           </Col>
