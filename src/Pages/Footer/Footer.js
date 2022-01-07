@@ -62,21 +62,23 @@ const Footer = () => {
             {/* Social Icon */}
             <div style={{ marginLeft: "2.4rem" }}>
               <Row>
-                <Col sm={12} lg={6}>
-                  <Row>
-                    <Col lg={3}>
-                      <i class="fab fa-linkedin fa-2x"></i>
-                    </Col>
-                    <Col lg={3}>
-                      <i class="fab fa-twitter-square fa-2x"></i>
-                    </Col>
-                    <Col lg={3}>
-                      <i class="fab fa-instagram-square fa-2x"></i>
-                    </Col>
-                    <Col lg={3}>
-                      <i class="fab fa-facebook-square fa-2x"></i>
-                    </Col>
-                  </Row>
+                <Col lg={6}>
+                  <div>
+                    <Row>
+                      <Col sm={3} lg={3}>
+                        <i class="fab fa-linkedin fa-2x"></i>
+                      </Col>
+                      <Col sm={3} lg={3}>
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                      </Col>
+                      <Col sm={3} lg={3}>
+                        <i class="fab fa-instagram-square fa-2x"></i>
+                      </Col>
+                      <Col sm={3} lg={3}>
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                      </Col>
+                    </Row>
+                  </div>
                 </Col>
                 <Col lg={4}></Col>
               </Row>

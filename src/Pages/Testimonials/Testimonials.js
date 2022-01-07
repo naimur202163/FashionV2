@@ -4,24 +4,30 @@ import "./Testimonial.css";
 import girl from "../../img/girl(1).png";
 const Testimonials = () => {
   return (
-    <div style={{ marginTop: "4rem" }}>
+    <div style={{ marginTop: "10rem" }}>
       <Container>
         <div className="bg-img">
           <Row>
             <Col>
-              <div
-                style={{ width: "473px", height: "473px", marginLeft: "3rem" }}
-              >
-                <img
-                  className="mx-auto d-block"
+              <div style={{ width: "80%" }}>
+                <div
                   style={{
-                    marginTop: "-3.5rem",
-                    border: "1px solid gray",
-                    borderRadius: "50%",
+                    width: "473px",
+                    height: "473px",
+                    padding: "16px",
                   }}
-                  src={girl}
-                  alt=""
-                />
+                >
+                  <img
+                    className="mx-auto d-block"
+                    style={{
+                      marginTop: "-3.5rem",
+                      border: "1px solid gray",
+                      borderRadius: "50%",
+                    }}
+                    src={girl}
+                    alt=""
+                  />
+                </div>
               </div>
             </Col>
             <Col>
