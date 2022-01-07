@@ -1,5 +1,6 @@
 import React from "react";
 import BannerImg from "../BannerImg/BannerImg";
+import Lorem from "../Lorem/Lorem";
 import OurStyle from "../OurStyle/OurStyle";
 import Testimonials from "../Testimonials/Testimonials";
 import TopBanner from "../TopBanner/TopBanner";
@@ -13,6 +14,7 @@ const Home = () => {
       <Conslatency />
       <OurStyle />
       <Testimonials />
+      <Lorem />
     </div>
   );
 };
