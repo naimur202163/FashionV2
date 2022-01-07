@@ -61,25 +61,43 @@ const OurStyle = () => {
         <div className="my-3">
           <Row>
             <Col>
-              <div className="bg-img1"> </div>
+              <div>
+                <img src="https://i.ibb.co/xqgJpS9/Mask-Group-1.png" alt="" />{" "}
+              </div>
+            </Col>
+            {/* <Col>
+              <div>
+                <img
+                  className="mx-auto d-block"
+                  src="https://i.ibb.co/S5s7MG8/Group.png"
+                  alt=""
+                />{" "}
+              </div>
+            </Col> */}
+            <Col>
+              <div>
+                <img src="https://i.ibb.co/WzPWjr8/Mask-Group-1.png" alt="" />{" "}
+              </div>
             </Col>
             <Col>
-              <div className="bg-img2"></div>
+              <div>
+                <img src="https://i.ibb.co/J3FQwRq/Mask-Group-1.png" alt="" />{" "}
+              </div>
             </Col>
             <Col>
-              <div className="bg-img3"></div>
+              <div>
+                <img src="https://i.ibb.co/dQJ4QTs/Mask-Group-1.png" alt="" />{" "}
+              </div>
             </Col>
             <Col>
-              <div className="bg-img4"></div>
+              <div>
+                <img src="https://i.ibb.co/Ph2Mrpt/Mask-Group-1.png" alt="" />{" "}
+              </div>
             </Col>
             <Col>
-              <div className="bg-img5"></div>
-            </Col>
-            <Col>
-              <div className="bg-img6"></div>
-            </Col>
-            <Col>
-              <div className="bg-img7"></div>
+              <div>
+                <img src="https://i.ibb.co/SQ9Ngbv/Mask-Group-1.png" alt="" />{" "}
+              </div>
             </Col>
           </Row>
         </div>
