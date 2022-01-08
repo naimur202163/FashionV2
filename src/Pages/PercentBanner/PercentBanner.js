@@ -1,12 +1,15 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import "./PercentBanner.css";
 const PercentBanner = () => {
   return (
     <div>
       <Container>
-        <Row></Row>
-        <div style={{ width: "100%" }} className="percent"></div>
+        <Row>
+          <Col>
+            <div style={{ width: "100%" }} className="percent"></div>
+          </Col>
+        </Row>
       </Container>
     </div>
   );
